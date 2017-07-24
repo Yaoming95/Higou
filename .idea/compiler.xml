@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Copy of higou" />
         <module name="higou" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="higou" target="1.5" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="Copy of higou" target="1.8" />
+      <module name="higou" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

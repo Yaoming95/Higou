@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tanlan.higou.dao.UserDAO">
+    <resultMap id="UserResult" type="User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="password" column="password"/>
+        <result property="phoneNum" column="phoneNum"/>
+        <result property="money" column="money"/>
+        <result property="avatar" column="avatar"/>
+        <result property="regTime" column="regTime"/>
+        <result property="role" column="role"/>
+    </resultMap>
+    <insert id="addUser" parameterType="User">
+        INSERT INTO shop_user VALUE(#{id},#{name},#{password},#{phoneNum},#{money},#{avatar, jdbcType = VARCHAR},#{regTime},#{role})
+    </insert>
+</mapper>

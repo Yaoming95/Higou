@@ -1,0 +1,29 @@
+.gitignore/
+~
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+#others
+*.pid
+*/output/
+/.settings/
+/target/
+/bin/
+
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
