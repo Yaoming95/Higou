@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!--<package name="com.tanlan.higou.entity"/>-->
+        <typeAlias type="com.tanlan.higou.entity.User" alias="User"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="com/tanlan/higou/dao/mapper/UserMapper.xml"/>
+    </mappers>
+
+</configuration>

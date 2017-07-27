@@ -10,9 +10,8 @@
         <module name="higou" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="Copy of higou" target="1.8" />
-      <module name="higou" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Copy of higou" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
